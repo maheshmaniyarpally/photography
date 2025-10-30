@@ -1,0 +1,219 @@
+body{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+.section1{
+     /* border: 2px solid; */
+     box-shadow: 0 0 8px 0 rgb(26, 26, 26);
+     height: 39px;
+     display: flex; 
+     gap: 30px;
+     padding-left: 15px;
+     align-items: center;
+     position: fixed;
+
+     width: 100%;
+     background-color: white;
+     z-index: 10;
+     
+}
+.section1>p:hover{
+    padding: 9.8px 0 9.8px 0;
+    background-color: rgb(198, 192, 192);
+}
+.search{
+    /* margin-left: 930px; */
+    text-align: end;
+    padding-left: 910px;
+}
+
+.section2{
+     height: 450px;
+     background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y:-230px ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    opacity: 0.8;
+    /* z-index: 3; */
+}
+.h2{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    letter-spacing: 7px;
+}
+.section3{
+    /* border:2px solid; */
+    justify-content: center;
+    
+}
+.para1{
+    padding: 0 200px 0 250px;
+    width: 900px;
+    line-height: 25px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.section4{
+    /* border: 2px solid; */
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.div1,.div2{
+    /* border: 2px solid; */
+    height: 340px;
+    width: 400px;
+}
+.div1>img{
+    width:393px;
+    height: 261px;
+    opacity: 0.5;
+}
+.para2{
+    opacity: 0.6;
+    line-height: 22px;
+    font-size: 14px;
+}
+.div1>img:hover{
+    opacity: 1;
+}
+.section5{
+    text-align: center;
+    /* border: 2px solid; */
+    /* display: flex; */
+    align-items: center;
+    
+}
+.div3>p{
+    letter-spacing: 7px;
+    opacity: 0.7;
+}
+.div6{
+    width: 908px;
+    height: 35px;
+    background-color: rgb(227, 224, 220);
+    
+}
+.div7{
+    text-align: center;
+    width: 803px;
+    height: 35px;
+    background-color: rgb(36, 41, 41);
+    opacity: 0.6;   
+    
+}
+.div8{
+    display: flex;
+    justify-content: center;
+   color: white;
+   
+}
+.div9{
+   text-align: center;
+    width: 723px;
+    height: 35px;
+    background-color: rgb(36, 41, 41);
+    opacity: 0.6;
+}
+.div10{
+    text-align: center;
+    width: 633px;
+    height: 35px;
+    background-color: rgb(36, 41, 41);
+    opacity: 0.6;
+}
+.div11{
+    height: 130px;
+    background-color: rgb(71, 70, 74);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.div11>p{
+    font-size: 19px;
+}
+.section6{
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 8px;
+    opacity: 0.7;
+}
+.section7{
+    text-align: center;
+    justify-self: center;
+    /* justify-content: center; */
+}
+.div12{
+    width: 900px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_div{
+ width: 217px;
+ height: 163px;
+}
+.img_div:hover{
+    opacity: 0.6;
+}
+.section8{
+    height: 400px;
+    background-image: url(https://www.w3schools.com/w3images/parallax3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    color: white;
+    font-size: 27px;
+}
+
+.wiw{
+    font-size: 25px;
+    opacity: 0.6;
+}
+.last_img{
+    width: 238px;
+    height: 134;
+}
+.div13{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.div16{
+    text-align: center;
+}
+.div15{
+    opacity: 0.6;
+}
+.section10{
+    height: 260px;
+    background-color:black;
+    color: white;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
